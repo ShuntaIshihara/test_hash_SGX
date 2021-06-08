@@ -1,0 +1,16 @@
+Execute ECALL.
+
+Output from OCALL: 
+1176122782
+
+Returned integer from ECALL is: 31337
+
+Whole operations have been executed correctly.
+Execute ECALL.
+
+Output from OCALL: 
+1176122782
+
+Returned integer from ECALL is: 31337
+
+Whole operations have been executed correctly.
