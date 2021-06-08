@@ -12,10 +12,10 @@ sgx_enclave_id_t global_eid = 0;
 
 
 /* OCALL implementations */
-void ocall_print(const char* str)
+void ocall_print(int *str)
 {
 	std::cout << "Output from OCALL: " << std::endl;
-	std::cout << str << std::endl;
+	std::cout << *str << std::endl;
 	
 	return;
 }
